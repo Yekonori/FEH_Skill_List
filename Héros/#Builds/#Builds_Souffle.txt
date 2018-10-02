@@ -1,0 +1,18 @@
+#Bénédiction : 
+
+#Soufle Spéciale : 
+
+#Pyrosouffle : 
+	_Tout le monde						=>
+
+#Souffle Sombre : 
+	_Tout le monde						=>
+
+#Souffle Lumineux : 
+	_Tout le monde						=>
+
+#Souffle Électrique : 
+	_Tout le monde						=>
+
+#Souffle d'Eau : 
+	_Tout le monde						=>

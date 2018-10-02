@@ -1,0 +1,34 @@
+#Bénédiction : 
+
+#Armes Spéciales : 
+	_Œuf Bleu (Offensif)				=>
+	_Bouquet Béni (Offensif)			=>
+	_Jus Tropical (Offensif)			=>
+	_Cadeau Bleu (Tank Distant)			=> - {Distant}
+	_Œuf d'Hugin (Débuff) 				=>
+	_Tome Spectral (Débuff)				=>
+	_Bouquet Frais (Support)			=>
+	_Tome Tropical (Support)			=>
+	_Partition Festive (Support) 		=>
+
+#Thoron // Flash : 
+	_Atq >= 33 [+Kill]
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
+
+#Crochets Saphir : 
+	_Déf >= 30 [-Kill]					=> - {Distance}
+	_Rés >= 30 [-Kill]					=> - {Distance}
+
+#Lames Saphir : 
+	_Tout le monde [+Kill]				=>
+
+#Ailes Saphir : 
+	_Tout le monde [+Kill]				=>
+	_Tout le monde [-Kill]				=>
+
+#Serres Saphir : 
+	_Kill >= 80% - [xx.xx%]				=> - {Gris}
+
+#Canines Saphir : 
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

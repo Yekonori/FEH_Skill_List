@@ -1,0 +1,38 @@
+#Bénédiction : 
+
+#Haches Spéciales : 
+	_Hache Carotte (Offensif)			=>
+	_Cuillère Géante (Offensif) 		=>
+	_Fanion de Plage (Offensif)			=>
+	_Brise-Pastèque (Aggresif)			=>
+	_Sac à Cadeaux (Tank)				=>
+	_Cloche (Tank)						=>
+	_Hache Légion (Débuff)				=>
+	_Pelle à Tarte (Support)			=>
+	_Bouée Lilith (Support)				=>
+	_Hagoita (Support)					=>
+
+#Hache Argent : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique}
+	_Rés >= 30 [-Kill]					=> - {Magique + Contre Distant}
+
+#Wo Gùn : 
+	_Atq <= 32 [+Kill]					=>
+
+#Hache Héros : 
+	_Vit <= 27 [+Kill]					=>
+
+#Hache Meurtrier : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique}
+	_Rés >= 30 [-Kill]					=> - {Magique + Contre Distant}
+
+#Hache Émeraude : 
+	_Kill >= 85% - [xx.xx%]				=> - {Bleu}
+
+#Marteau Meurtrier / Hache Polaire :
+	_Kill >= 80% - [xx.xx%]				=> - {Cuirassé}
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

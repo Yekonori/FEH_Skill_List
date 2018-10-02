@@ -1,0 +1,23 @@
+#Bénédiction : 
+
+#Armes Spéciales : 
+	_Candélabre (Tank)					=>
+	_Tome Tomate (Support)				=>
+
+#Bolganone // Fenrir : 
+	_Atq >= 33 [+Kill]
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
+
+#Lames Rubis : 
+	_Tout le monde [+Kill]				=>
+
+#Ailes Rubis : 
+	_Tout le monde [+Kill]				=>
+	_Tout le monde [-Kill]				=>
+
+#Serres Rubis : 
+	_Kill >= 80% - [xx.xx%]				=> - {Gris}
+
+#Canines Rubis : 
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

@@ -1,0 +1,36 @@
+#Bénédiction : 
+
+#Bâtons Spéciaux : 
+	_Lueur de Bougie (Support)			=>
+
+#Terreur : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>
+
+#Lenteur : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>
+
+#Panique : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>
+
+#Assaut : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>
+
+#Gravité : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>
+
+#Hémorragie : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>
+
+#Vampirisme : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>
+
+#Trilemme : 
+	_Atq >= 30 [+Kill]					=>
+	_Tout le monde						=>

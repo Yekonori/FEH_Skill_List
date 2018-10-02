@@ -1,0 +1,156 @@
+/**********************************************************************************/
+/*********************************** Buff Actif ***********************************/
+/**********************************************************************************/
+
+#Lien : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Lien Atq/Déf 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Atq/Déf +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
+	- Lien Déf/Rés 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Déf/Rés +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
+
+#Dance : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Danse du Feu 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq +4.
+	- Danse du Vent 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Vit +4.
+	- Danse Terrestre 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Déf +5.
+	- Danse de l'Eau 1 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Rés +3.
+	- Danse Brasier 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq/Vit +4.
+	- Danse Magma 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq/Rés +4.
+	- Danse du Tornade 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Vit/Déf +4.
+	- Danse du Geyser 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Déf/Rés +4.
+
+
+/**********************************************************************************/
+/************************************* Débuff *************************************/
+/**********************************************************************************/
+
+#Sceau : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Sceau Atq 3 : Après le combat, inflige Atq -7 à l'ennemi jusqu'à la fin de sa phase.
+	- Sceau Vit 3 : Après le combat, inflige Vit -7 à l'ennemi jusqu'à la fin de sa phase.
+	- Sceau Déf 3 : Après le combat, inflige Déf -7 à l'ennemi jusqu'à la fin de sa phase.
+	- Sceau Rés 3 : Après le combat, inflige Rés -7 à l'ennemi jusqu'à la fin de sa phase.
+
+#Double Sceau : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Sceau Atq/Vit 2 : Après le combat, inflige Atq/Vit -5 à l'ennemi jusqu'à la fin de sa phase.
+	- Sceau Atq/Déf 2 : Après le combat, inflige Atq/Déf -5 à l'ennemi jusqu'à la fin de sa phase.
+	- Sceau Déf/Rés 2 : Après le combat, inflige Déf/Rés -5 à l'ennemi jusqu'à la fin de sa phase.
+
+#Gel : {Spécifique -- Optimal}
+	- Gel Atq 3 : Au début de chaque tour, inflige Atq -7 à l'ennemi avec la Atq la plus élevée jusqu'à la fin de sa phase.
+	- Gel Vit 3 : Au début de chaque tour, inflige Vit -7 à l'ennemi avec la Vit la plus élevée jusqu'à la fin de sa phase.
+	- Gel Déf 3 : Au début de chaque tour, inflige Déf -7 à l'ennemi avec la Déf la plus élevée jusqu'à la fin de sa phase.
+	- Gel Rés 3 : Au début de chaque tour, inflige Rés -7 à l'ennemi avec la Rés la plus élevée jusqu'à la fin de sa phase.
+
+#Feinte : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Feinte Vit 3 : Si une Aptitude Ralliement est utilisée par l'unité ou sur l'unité, inflique Vit -7 aux ennemis situés sur la même ligne horizontale ou verticale jusqu'à la fin de leur phase.
+	- Feinte Déf 3 : Si une Aptitude Ralliement est utilisée par l'unité ou sur l'unité, inflique Déf -7 aux ennemis situés sur la même ligne horizontale ou verticale jusqu'à la fin de leur phase.
+
+
+/**********************************************************************************/
+/********************************* Double Frappe *********************************/
+/**********************************************************************************/
+
+#Anti- : {Spécifique -- Optimal} // Non compatible : *Spécifique*
+	- Anti-Épée 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi doté d'une Épée et empêche ce dernier d'en réaliser.
+	- Anti-Lance 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi doté d'une Lance et empêche ce dernier d'en réaliser.
+	- Anti-Hache 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi doté d'une Hache et empêche ce dernier d'en réaliser.
+	- Anti-Tome (R) 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi doté d'un Tome Rouge et empêche ce dernier d'en réaliser.
+	- Anti-Tome (B) 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi doté d'un Tome Bleu et empêche ce dernier d'en réaliser.
+	- Anti-Tome (V) 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi doté d'un Tome Vert et empêche ce dernier d'en réaliser.
+	- Anti-Arc 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi Gris doté d'un Arc et empêche ce dernier d'en réaliser.
+	- Anti-Dague 3 : Si PV >= 50%, l'unité effectue une double frappe lorqu'elle affronte un ennemi doté d'une Dague et empêche ce dernier d'en réaliser.
+	- Anti-Avantage 3 : Les effets du Triangle des Armes liés aux Aptitudes de l'unité sont annulés. Annule aussi les effets du Triangle des Armes pour l'ennemi en cas de désavantage tactique.
+
+#PV : {Spécifique -- Optimal}
+	- Casse-Cou 3 : Si PV >= 50%, l'unité effectue automatiquement une double frappe lorsqu'elle initie le combat si l'ennemi est en mesure de riposté.
+	- Double Riposte 3 : Si PV >= 70%, l'unité effectue automatiquement une double frappe lorsqu'elle est attaquée.
+
+#Cuirassé : {Spécifique -- Optimal} // Non compatible : Fantassin / Cavalier / Volant
+	- Méfiance 3 : Si PV >= 50%, aucune double frappe n'est possible pour l'unité comme pour l'ennemi.
+	- Audace 3 : Si l'unité initie le combat, elle effectue automatiquement une double frappe. Compteur -1 par attaque
+	- Rancune 3 : Si l'ennemi initie le combat et que PV >= 50% pour l'unité, celle-ci effectue automatiquement une double frappe. Compteur -1 par attaque.
+	- Spécial 3 : Si PV >= 50% au début du combat, confère Compteur -1 à l'unité et inflige Compteur +1 à l'ennemi pour chaque attaque.
+
+
+/**********************************************************************************/
+/********************************** Contre Arme **********************************/
+/**********************************************************************************/
+	
+#Affaiblissement : {Spécifique -- Non Optimal}
+	- Affaibl. Proche 3 : Si l'ennemi utilise une Épée, une Lance, une Hache ou une Dracopierre, les bonus dont il bénéficie grâce à des Aptitudes comme Prudence ou Ralliement sont annulés pendant le combat.
+	- Affaibl. Distance 3 : Si l'ennemi utilise un Arc, une Dague, la Magie ou un Bâton, les bonus dont il bénéficie grâce à des Aptitudes comme Prudence ou Ralliement sont annulés pendant le combat.
+
+
+/**********************************************************************************/
+/********************************* Avantage Arme *********************************/
+/**********************************************************************************/
+
+#Balayage : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Rafale 3 : Double frappe impossible en initiant le combat. Si Vit >= 1 + Vit d'un ennemi avec Épée, Lance, Hache, Arc ou Dague, celui-ci ne peut pas riposter.
+	- Déferlante 3 : Double frappe impossible en initiant le combat. Si Vit >= 1 + Vit d'un ennemi utilisant Magie, Bâton ou Dracopierre, celui-ci ne peut pas riposter.
+
+
+/**********************************************************************************/
+/************************************ Priorité ************************************/
+/**********************************************************************************/
+
+#PV : {Spécifique -- Optimal}
+	- Initiative 3 : Si PV <= 75%, l'unité frappe en premier lorsqu'elle est attaquée.
+	- Adrénaline 3 : Lorsqu'elle initie le combat et si PV <= 75%, l'unité effectue immédiatement une double frappe si elle est capable d'en réaliser.
+
+
+/**********************************************************************************/
+/************************************ Mobilité ************************************/
+/**********************************************************************************/
+
+#Mouvement : {Spécifique -- Non Optimal} // Non compatible : Arme à Distance
+	- Attraction : Après avoir initié le combat, l'unité recule d'une case et tire l'ennemi ciblé avec elle.
+	- Projection : Après avoir initié le combat, l'unité repousse l'ennemi ciblé d'une case.
+	- Bascule : Après avoir initié le combat, l'unité échange de place avec celle de l'ennemi ciblé.
+	- Coup-Esquive : Après avoir initié le combat, l'unité recule d'une case.
+
+#Téléportation : {Spécifique -- Optimal} // Non compatible : *Spécifique*
+	- Escapade 3 : Si ses PV <= 40%, l'unité peut se téléporter aux côtés de n'importe quel allié.
+	- Sauvetage 3 : Permet à l'unité de se téléporter aux côtés de n'importe quel allié dont les PV sont <= 50%.
+	- Formation Air 3 : L'unité peut se déplacer jusqu'à une case adjacente à un allié Volant situé à deux cases ou moins.
+	- Voltige 3 : L'unité peut se déplacer jusqu'à une case adjacente à un Fantassin, un Cuirassé ou un Cavalier allié situé à deux cases ou moins.
+
+#Déplacement : {Spécifique -- Non Optimal}
+	- Obstruction 3 : Si PV >= 50%, empêche les ennemis de traverser les cases adjacentes à l'unité.
+	- Passage 3 : Si PV >= 25%, l'unité peut passer au travers des ennemis.
+
+
+/**********************************************************************************/
+/************************************* Bâton *************************************/
+/**********************************************************************************/
+
+#Offensif : {Spécifique -- Optimal} // Exclusif : Bâton
+	- Bâton Furieux 3 : Les dégâts des attaques au Bâton de l'unité sont calculés de la même manière que ceux des autres armes.
+	- Bâton Brillant 3 : L'ennemi ne peut contre-attaquer.
+
+#Soigneur : {Spécifique -- Optimal} // Exclusif : Bâton
+	- Dévotion 3 : Lorsque l'unité restaure les PV d'un allié avec un Bâton, elle récupère la même quantité de PV.
+
+
+/**********************************************************************************/
+/*********************************** Ressources ***********************************/
+/**********************************************************************************/
+
+#Éclat : {Spécifique -- Non Optimal}
+	- Abondance : Si l'unité survit, Éclats/Cristaux x 1,5 après une carte de la Tour d'Entraînement.
+
+#Badge : {Spécifique -- Non Optimal}
+	- Honneur : Si l'unité survit, Badges Normaux x 1,5 après une carte de la Tour d'Entraînement.
+
+
+/**********************************************************************************/
+/************************************* Autre *************************************/
+/**********************************************************************************/
+
+#Spécial : {Spécifique -- Optimal} // Non compatible : Arme à Distance / Cavalier / Volant
+	- Courroux 3 : Si PV <= 75% et si l'Aptitude Spéciale est activée en attaquant, Compteur -1 au début du tour. Si l'Aptitude Spéciale se déclenche, ses dégâts sont augmentés de 10.
+	- Influx Écu 3 : Si l'Aptitude Spéciale est activée par les attaques ennemis, Compteur -2 au début du premier tour. Les dégâts subis par l'unité sont réduit de 5 lors de l'activation de l'Aptitude Spéciale.
+
+#Dommage : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Frappe Ciguë 3 : Après avoir initié le combat, l'unité inflige 10 dégâts à l'ennemi ciblé.
+
+#Soutien : {Spécifique -- Optimal}
+	- Guérison 3 : Tous les 2 tours, l'unité recouvre 10 PV en début de tour.
+	- Négation 3 : Si PV >= 80% au début du combat, Compteur ennemi +1.

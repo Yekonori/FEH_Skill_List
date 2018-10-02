@@ -1,0 +1,27 @@
+#Bénédiction : Vent
+
+#Armes Spéciales : 
+    _Nóatún (Mobilité)                  => 151 V // 116 D //  0 N
+	_Hache Carotte (Offensif)			=> 207 V //  64 D //  0 N
+	_Cuillère Géante (Offensif) 		=> 219 V //  53 D //  0 N
+	_Fanion de Plage (Offensif)			=> 219 V //  53 D //  0 N
+	_Brise-Pastèque (Aggresif)			=> 218 V //  54 D //  0 N
+	_Sac à Cadeaux (Tank)				=> 197 V //  75 D //  0 N
+	_Cloche (Tank)						=> 197 V //  75 D //  0 N
+	_Hache Légion (Débuff)				=>
+	_Pelle à Tarte (Support)			=>
+	_Bouée Lilith (Support)				=>
+	_Hagoita (Support)					=>
+
+#Hache Argent : 
+	_Vit >= 35 [+Kill]					=>
+
+#Hache Meurtrier : 
+	_Vit >= 35 [+Kill]					=>
+
+#Hache Émeraude : 
+	_Kill >= 85% - [xx.xx%]				=> - {Bleu}
+
+#Marteau Meurtrier / Hache Polaire :
+	_Kill >= 80% - [xx.xx%]				=> - {Cuirassé}
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

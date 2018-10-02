@@ -1,0 +1,141 @@
+/*********************************************************************************/
+/********************************** Buff Passif **********************************/
+/*********************************************************************************/
+
+#Encens : {Spécifique -- Optimal}
+	- Encens Atq 3 : Confère Atq +4 aux alliés adjacents.
+	- Encens Vit 3 : Confère Vit +4 aux alliés adjacents.
+	- Encens Déf 3 : Confère Déf +4 aux alliés adjacents.
+	- Encens Rés 3 : Confère Rés +4 aux alliés adjacents.
+
+#Double Encens : {Spécifique -- Optimal}
+	- Encens Atq/Vit 2 : Confère Atq/Vit +3 aux alliés adjacents.
+	- Encens Atq/Déf 2 : Confère Atq/Déf +3 aux alliés adjacents.
+	- Encens Atq/Rés 2 : Confère Atq/Rés +3 aux alliés adjacents.
+	- Encens Vit/Déf 2 : Confère Vit/Déf +3 aux alliés adjacents.
+	- Encens Vit/Rés 2 : Confère Vit/Rés +3 aux alliés adjacents.
+	- Encens Déf/Rés 2 : Confère Déf/Rés +3 aux alliés adjacents.
+
+#Stimulant : {Spécifique -- Optimal}
+	- Stimulant Atq 2 : Confère Atq +3 aux alliés situés à 2 cases ou moins pendant le combat.
+	- Stimulant Vit 2 : Confère Vit +3 aux alliés situés à 2 cases ou moins pendant le combat.
+	- Stimulant Déf 2 : Confère Déf +3 aux alliés situés à 2 cases ou moins pendant le combat.
+	- Stimulant Rés 2 : Confère Rés +3 aux alliés situés à 2 cases ou moins pendant le combat.
+
+#Sursaut : {Spécifique -- Optimal} // *Spécifique*
+	- Sursaut (Cuira.) : Confère Atq/Vit +4 aux Cuirassés alliés à deux cases ou moins de l'unité.
+	- Sursaut (Cav.) : Confère Atq/Vit +4 aux Cavaliers alliés à deux cases ou moins de l'unité.
+	- Sursaut (Vol) : Confère Atq/Vit +4 aux Volants alliés à deux cases ou moins de l'unité.
+	- Sursaut (Dra.) : Confère Atq/Vit +4 aux Dragons alliés à deux cases ou moins de l'unité.
+
+#Vigilance : {Spécifique -- Optimal} // *Spécifique*
+	- Vigilance (Cuira.) : Confère Déf/Rés +4 aux Cuirassés alliés à deux cases ou moins de l'unité.
+	- Vigilance (Cav.) : Confère Déf/Rés +4 aux Cavaliers alliés à deux cases ou moins de l'unité.
+	- Vigilance (Vol) : Confère Déf/Rés +4 aux Volants alliés à deux cases ou moins de l'unité.
+	- Vigilance (Dra.) : Confère Déf/Rés +4 aux Dragons alliés à deux cases ou moins de l'unité.
+
+#Garde : {Spécifique -- Optimal}
+	- Garde Proche 3 : Confère l'effet suivant au alliés à 2 cases ou moins : si l'ennemi utilise une Épée, une Lance, une Hache ou une Dracopierre, confère Déf/Rés +4 pendant le combat.
+	- Garde Distance 3 : Confère l'effet suivant au alliés à 2 cases ou moins : si l'ennemi utilise un Arc, une Dague, la Magie ou un Bâton, confère Déf/Rés +4 pendant le combat.
+
+
+/**********************************************************************************/
+/*********************************** Buff Actif ***********************************/
+/**********************************************************************************/
+
+#Impulsion : {Spécifique -- Optimal}
+	- Impulsion Atq 3 : En début de tour, confère Atq +4 aux alliés adjacents pendant un tour.
+	- Impulsion Vit 3 : En début de tour, confère Vit +4 aux alliés adjacents pendant un tour.
+	- Impulsion Déf 3 : En début de tour, confère Déf +4 aux alliés adjacents pendant un tour.
+	- Impulsion Rés 3 : En début de tour, confère Rés +4 aux alliés adjacents pendant un tour.
+
+#Vague : {Spécifique -- Optimal}
+	- Pair Vit 3 : Au début des tours Pairs, confère Vit +6 à l'unité et aux alliés adjacents pendant un tour.
+	- Pair Rés 3 : Au début des tours Pairs, confère Rés +6 à l'unité et aux alliés adjacents pendant un tour.
+	- Impair Atq 3 : Au début des tours Impairs, confère Atq +6 à l'unité et aux alliés adjacents pendant un tour.
+	- Impair Déf 3 : Au début des tours Impairs, confère Déf +6 à l'unité et aux alliés adjacents pendant un tour.
+	- Impair Rés 3 : Au début des tours Impairs, confère Rés +6 à l'unité et aux alliés adjacents pendant un tour.
+
+#Élan : {Spécifique -- Optimal} // *Spécifique*
+	- Élan (Cuirassés) : En début de tour, confère Atq/Vit +6 aux Cuirsassés adjacents pendant un tour.
+	- Élan (Cavalerie) : En début de tour, confère Atq/Vit +6 aux Cavaliers adjacents pendant un tour.
+	- Élan (Vol) : En début de tour, confère Atq/Vit +6 aux Volants adjacents pendant un tour.
+	- Élan (Dragons) : En début de tour, confère Atq/Vit +6 aux Dragons adjacents pendant un tour.
+
+#Prudence : {Spécifique -- Optimal} // *Spécifique*
+	- Prudence (Cuira.) : En début de tour, confère Déf/Rés +6 aux Cuirsassés adjacents pendant un tour.
+	- Prudence (Cav.) : En début de tour, confère Déf/Rés +6 aux Cavaliers adjacents pendant un tour.
+	- Prudence (Vol) : En début de tour, confère Déf/Rés +6 aux Volants adjacents pendant un tour.
+	- Prudence (Dra.) : En début de tour, confère Déf/Rés +6 aux Dragons adjacents pendant un tour.
+
+#Tactique : {Équipe Mixte -- Optimal}
+	- Tactique Atq 3 : Au début du tour, les alliés situés à 2 cases ou moins dont le type de mouvement apparaît deux fois ou moins dans l'Équipe reçoivent Atq +6 pendant un tour.
+	- Tactique Vit 3 : Au début du tour, les alliés situés à 2 cases ou moins dont le type de mouvement apparaît deux fois ou moins dans l'Équipe reçoivent Vit +6 pendant un tour.
+	- Tactique Déf 3 : Au début du tour, les alliés situés à 2 cases ou moins dont le type de mouvement apparaît deux fois ou moins dans l'Équipe reçoivent Déf +6 pendant un tour.
+	- Tactique Rés 3 : Au début du tour, les alliés situés à 2 cases ou moins dont le type de mouvement apparaît deux fois ou moins dans l'Équipe reçoivent Rés +6 pendant un tour.
+
+
+/********************************************************************************/
+/************************************ Débuff ************************************/
+/********************************************************************************/
+
+#Ruse : {Spécifique -- Optimal}
+	- Ruse Atq 3 : Au début du tour, inflige Atq -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+	- Ruse Vit 3 : Au début du tour, inflige Vit -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+	- Ruse Déf 3 : Au début du tour, inflige Déf -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+	- Ruse Rés 3 : Au début du tour, inflige Rés -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+	- Ruse Panique 3 : Au début du tour, les bonus deviennent des malus pour les ennemis situés sur la même ligne Horizontale ou Verticale ayant au moins 1 PV de moins que l'unite jusqu'à la fin de leur phase.
+
+#Réduite : {Spécifique -- Optimal}
+	- Atq Réduite 3 : En début de tour, inflige Atq -5 aux ennemis situés à 2 cases ou moins pendant un tour.
+	- Vit Réduite 3 : En début de tour, inflige Vit -5 aux ennemis situés à 2 cases ou moins pendant un tour.
+	- Déf Réduite 3 : En début de tour, inflige Déf -5 aux ennemis situés à 2 cases ou moins pendant un tour.
+	- Rés Réduite 3 : En début de tour, inflige Rés -5 aux ennemis situés à 2 cases ou moins pendant un tour.
+
+#Fumée : {Spécifique -- Optimal}
+	- Fumée Atq 3 : Après le combat, inflige Atq -7 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour.
+	- Fumée Vit 3 : Après le combat, inflige Vit -7 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour.
+	- Fumée Déf 3 : Après le combat, inflige Déf -7 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour.
+	- Fumée Rés 3 : Après le combat, inflige Rés -7 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour.
+
+
+/********************************************************************************/
+/******************************* Expérience et PA *******************************/
+/********************************************************************************/
+
+#Expérience : {Spécifique -- Non Optimal} // *Spécifique*
+	- Exp. Épée 3 : Si l'unité survit, toutes les unités dotés d'Épées de l'Équipe reçoivent EXP x 2.
+	- Exp. Hache 3 : Si l'unité survit, toutes les unités dotés d'Haches de l'Équipe reçoivent EXP x 2.
+	- Exp. Tome Rouge 3 : Si l'unité survit, toutes les unités dotés de Tomes Rouges reçoivent EXP x 2.
+	- Exp. Tome Bleu 3 : Si l'unité survit, toutes les unités dotés de Tomes Bleus reçoivent EXP x 2.
+	- Exp. Tome Vert 3 : Si l'unité survit, toutes les unités dotés de Tomes Verts reçoivent EXP x 2.
+	- Exp. Arc 3 : Si l'unité survit, toutes les unités dotés d'Arcs reçoivent EXP x 2.
+
+#PA : {Spécifique -- Non Optimal} // *Spécifique*
+	- Tech. Épée 3 : Si l'unité survit, toutes les unités dotés d'Épées de l'Équipe reçoivent PA x 2.
+	- Tech. Lance 3 : Si l'unité survit, toutes les unités dotés de Lances de l'Équipe reçoivent PA x 2.
+	- Tech. Hache 3 : Si l'unité survit, toutes les unités dotés d'Haches de l'Équipe reçoivent PA x 2.
+	- Tech. Tome Rouge 3 : Si l'unité survit, toutes les unités dotés de Tomes Rouges reçoivent PA x 2.
+	- Tech. Tome Bleu 3 : Si l'unité survit, toutes les unités dotés de Tomes Bleus reçoivent PA x 2.
+	- Tech. Tome Vert 3 : Si l'unité survit, toutes les unités dotés de Tomes Verts reçoivent PA x 2.
+	- Tech. Dragon 3 : Si l'unité survit, toutes les unités dotés de Dracopierres de l'Équipe reçoivent PA x 2.
+	- Tech. Dague 3 : Si l'unité survit, toutes les unités dotés de Dagues de l'Équipe reçoivent PA x 2.
+	- Tech. Arc 3 : Si l'unité survit, toutes les unités dotés d'Arcs de l'Équipe reçoivent PA x 2.
+	- Tech. Bâton 3 : Si l'unité survit, toutes les unités dotés d'Bâtons de l'Équipe reçoivent PA x 2.
+
+
+/*********************************************************************************/
+/************************************* Autre *************************************/
+/*********************************************************************************/
+
+#Mouvement : {Spécifique -- Optimal} // *Spécifique*
+	- Influx Infanterie 3 : Compteur -1 au début du premier tour pour toutes les Fantassins alliés ayant au moins 1 PV de moins que l'unité.
+	- Ruée Infanterie 3 : Pour les Fantassins à 2 cases ou moins, si Atq du Fantassin > Atq de l'ennemi, Compteur -1 par attaque.
+	- Élan Infanterie 3 : Pour les Fantassins à 2 cases ou moins, si Vit du Fantassin > Vit de l'ennemi, Compteur -1 par attaque.
+	- Dépl. Cuirassé 3 : Si l'unité commence le tour à côté d'un Cuirassé, l'unité et les alliés Cuirassés adjacents peuvent se déplacer d'une case de plus.
+	- Regroupement 3 : Les Fantassins et les Cuirassés alliés situés à deux cases ou moins peuvent se déplacer jusqu'à une case adjacente à l'unité.
+	- Regroup. (Vol) 3 : Les Volants alliés situé à deux cases ou moins peuvent se déplacer jusqu'à une case adjacente à l'unité.
+
+#Soutien : 
+	- Souffle Vitale 3 : Après avoir initié le combat, l'unité rend 7 PV aux alliés adjacents.
+	- Coup Sauvage 3 : Après avoir initié le combat, l'unité inflige 7 dégâts aux ennemis situés à deux cases ou moins de la cible.

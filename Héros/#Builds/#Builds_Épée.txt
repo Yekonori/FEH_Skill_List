@@ -1,0 +1,36 @@
+#Bénédiction : 
+
+#Épées Spéciales : 
+	_Kadomatsu (Support)				=>
+
+#Épée Argent : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique}
+	_Rés >= 30 [-Kill]					=> - {Magique + Contre Distant}
+
+#Wo Dao : 
+	_Atq <= 32 [+Kill]					=>
+
+#Épée Héros : 
+	_Vit <= 27 [+Kill]					=>
+
+#Épée Protect. : 
+	_Déf >= 30 [-Kill]					=> 
+
+#Épée Enflamée : 
+	_Atq >= 35 [+Kill]					=>
+	_Vit >= 37 [+Kill]					=>
+
+#Fer Meurtrier : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique}
+	_Rés >= 30 [-Kill]					=> - {Magique + Contre Distant}
+
+#Épée Rubis : 
+	_Kill >= 85% - [xx.xx%]				=> - {Vert}
+
+#Perce-Cuirasse / Zambato : 
+	_Kill >= 80% - [xx.xx%]				=> - {Cuirassé}
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

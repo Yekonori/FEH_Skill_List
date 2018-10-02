@@ -1,0 +1,27 @@
+#Bénédiction : 
+
+#Armes Spéciales : 
+	_Œuf Vert (Offensif)				=>
+	_Cadeau Vert : (Tank Distant)		=> - {Distant}
+	_Œuf de Munin (Débuff)				=>
+	_Tome Spectral (Débuff)				=>
+	_Tome Hibiscus (Support)			=>
+	_Anneau Festif (Support) 			=>
+
+#Fimbulvetr : 
+	_Atq >= 33 [+Kill]
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
+
+#Lames Émeraude : 
+	_Tout le monde [+Kill]				=>
+
+#Ailes Émeraude : 
+	_Tout le monde [+Kill]				=>
+	_Tout le monde [-Kill]				=>
+
+#Serres Émeraude : 
+	_Kill >= 80% - [xx.xx%]				=> - {Gris}
+
+#Canines Émeraude : 
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

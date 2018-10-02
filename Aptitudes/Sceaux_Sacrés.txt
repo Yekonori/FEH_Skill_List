@@ -1,0 +1,138 @@
+/**********************************************************************************/
+/************************** Modificateur de Statistiques **************************/
+/**********************************************************************************/
+
+#+Statistique : {Tout-Genre}
+	- PV +5 : Les PV max de l'unité augmentent de 5.
+	- Atq +3 : L'Attaque de l'unité augmente de 3.
+	- Vit +3 : La Vitesse de l'unité augmente de 3.
+	- Déf +3 : La Défense de l'unité augmente de 3.
+	- Rés +3 : La Résistance de l'unité augmente de 3.
+
+#+Doubles Statistiques : {Tout-Genre}
+	- PV/Rés 2 : Confère PV +4 et Rés +2 à l'unité.
+	- Atq/Déf 2 : Confère Atq +2 et Déf +2 à l'unité.
+
+#Forteresse : {Tank}
+	- Forteresse 3 : Confère Déf +5 à l'unité et lui inflige Atq -3.
+	- Forteresse Rés 3 : Confère Rés +5 à l'unité et lui inflige Atq -3.
+
+
+/**********************************************************************************/
+/********************************** Buff Passif **********************************/
+/**********************************************************************************/
+
+#Défense : {Tank}
+	- Déf Proche 3 : Si l'unité est attaqué par un ennemi utilisant une Épée, une Lance, une Hache ou une Dracopierre, elle reçoit Déf/Rés +6 pendant le combat.
+	- Déf à Distance 3 : Si l'unité est attaqué par un ennemi utilisant un Arc, une Dague, la Magie ou un Bâton, elle reçoit Déf/Rés +6 pendant le combat.
+
+#Encens : {Soutien}
+	- Encens Atq 3 : Confère Atq +4 aux alliés adjacents.
+	- Encens Vit 3 : Confère Vit +4 aux alliés adjacents.
+	- Encens Déf 3 : Confère Déf +4 aux alliés adjacents.
+	- Encens Rés 3 : Confère Rés +4 aux alliés adjacents.
+
+#Stimulant : {Soutien}
+	- Stimulant Atq 2 : Confère Atq +3 aux alliés situés à 2 cases ou moins pendant le combat.
+	- Stimulant Déf 2 : Confère Déf +3 aux alliés situés à 2 cases ou moins pendant le combat.
+
+
+/**********************************************************************************/
+/*********************************** Buff Actif ***********************************/
+/**********************************************************************************/
+
+#Dance : {Danseur} // Non compatible : Bâton
+	- Danse Terrestre 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Déf +5.
+
+#Impulsion : {Soutien}
+	- Impulsion Atq 3 : En début de tour, confère Atq +4 aux alliés adjacents pendant un tour.
+	- Impulsion Vit 3 : En début de tour, confère Vit +4 aux alliés adjacents pendant un tour.
+	- Impulsion Déf 3 : En début de tour, confère Déf +4 aux alliés adjacents pendant un tour.
+	- Impulsion Rés 3 : En début de tour, confère Rés +4 aux alliés adjacents pendant un tour.
+
+#Tactique : {Équipe Mixte}
+	- Tactique Déf 3 : Au début du tour, les alliés situés à 2 cases ou moins dont le type de mouvement apparaît deux fois ou moins dans l'Équipe reçoivent Déf +6 pendant un tour.
+	- Tactique Rés 3 : Au début du tour, les alliés situés à 2 cases ou moins dont le type de mouvement apparaît deux fois ou moins dans l'Équipe reçoivent Rés +6 pendant un tour.
+
+
+/**********************************************************************************/
+/************************************* Débuff *************************************/
+/**********************************************************************************/
+
+#Sceau : {Débuffeur} // Non compatible : Bâton
+	- Sceau Atq 3 : Après le combat, inflige Atq -7 à l'ennemi jusqu'à la fin de sa phase.
+	- Sceau Vit 3 : Après le combat, inflige Vit -7 à l'ennemi jusqu'à la fin de sa phase.
+
+#Ruse : {Débuffeur}
+	- Ruse Atq 3 : Au début du tour, inflige Atq -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+	- Ruse Vit 3 : Au début du tour, inflige Vit -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+	- Ruse Déf 3 : Au début du tour, inflige Déf -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+	- Ruse Rés 3 : Au début du tour, inflige Rés -5 aux ennemis situés sur la même ligne Horizontale ou Verticale dont la Rés est inférieur d'au moins 1 point à celle de l'unité jusqu'à la fin de leur phase.
+    - Ruse Panique 3 : Au début du tour, les bonus deviennent des malus pour les ennemis situés sur la même ligne Horizontale ou Verticale ayant au moins 1 PV de moins que l'unite jusqu'à la fin de leur phase.
+
+#Réduite : {Débuffeur}
+	- Atq Réduite 3 : En début de tour, inflige Atq -5 aux ennemis situés à 2 cases ou moins pendant un tour.
+	- Vit Réduite 3 : En début de tour, inflige Vit -5 aux ennemis situés à 2 cases ou moins pendant un tour.
+
+#Fumée : {Débuffeur}
+	- Fumée Atq 3 : Après le combat, inflige Atq -7 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour.
+	- Fumée Vit 3 : Après le combat, inflige Vit -7 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour.
+
+
+/**********************************************************************************/
+/********************************* Double Frappe *********************************/
+/**********************************************************************************/
+
+#PV : {Offensif // Tank Lent}
+	- Casse-Cou 3 : Si PV >= 50%, l'unité effectue automatiquement une double frappe lorsqu'elle initie le combat si l'ennemi est en mesure de riposté.
+	- Double Riposte 3 : Si PV >= 70%, l'unité effectue automatiquement une double frappe lorsqu'elle est attaquée.
+
+
+/**********************************************************************************/
+/************************************ Mobilité ************************************/
+/**********************************************************************************/
+
+#Téléportation : {Spécifique} // Non compatible : *Spécifique*
+	- Formation Air 3 : L'unité peut se déplacer jusqu'à une case adjacente à un allié Volant situé à deux cases ou moins.
+
+#Déplacement : {Spécifique}
+	- Obstruction 3 : Si PV >= 50%, empêche les ennemis de traverser les cases adjacentes à l'unité.
+
+
+/**********************************************************************************/
+/************************************* Bâton *************************************/
+/**********************************************************************************/
+
+#Soigneur : {Soigneur} // Exclusif : Bâton
+	- Dévotion 3 : Lorsque l'unité restaure les PV d'un allié avec un Bâton, elle récupère la même quantité de PV.
+
+
+/*********************************************************************************/
+/************************************* Autre *************************************/
+/*********************************************************************************/
+
+#Écu : {Spécifique}
+	- Écu d'Iote : Neutralise l'effet "efficace contre les Volants" conféré par certaines aptitudes.
+
+#Lame : {Spécifique} // Non compatible : Bâton
+	- Lame Lourde 3 : Si Atq > Atq de l'ennemi de 1 point ou +, Compteur -1 par attaque.
+	- Lame Véloce 3 : Si Vit > Vit de l'ennemi de 1 point ou +, Compteur -1 par attaque.
+
+#Dommage : {Affaiblisseur} // Non compatible : Bâton
+	- Frappe Ciguë 3 : Après avoir initié le combat, l'unité inflige 10 dégâts à l'ennemi ciblé.
+
+#Mouvement : {Mobilité} // *Spécifique*
+	- Regroupement 3 : Les Fantassins et les Cuirassés alliés situés à deux cases ou moins peuvent se déplacer jusqu'à une case adjacente à l'unité.
+
+#Soutien : {Soutien}
+	- Souffle Vitale 3 : Après avoir initié le combat, l'unité rend 7 PV aux alliés adjacents.
+	- Coup Sauvage 3 : Après avoir initié le combat, l'unité inflige 7 dégâts aux ennemis situés à deux cases ou moins de la cible.
+
+#Exclusif : {Spécifique}
+    - Pouls Accéléré : Compteur -1 au début du tour 1.
+    - Bluff Vit 3 : Si la Vit de l'unité est comparée à celle d'un ennemi ou d'un allié pour une autre aptitude, confère Vit +10 à l'unité le temps de la comparaison.
+    - Maintien Solide 3 : Les aptitudes modifiant l'ordre d'attaque sont désactivées pour l'unité et l'ennemi.
+    - Abri Mêlée 3 : Si l'unité subit des attaques consécutives d'un ennemi utilisant une Épée, une Lance ou une Hache, réduit les dégâts de la deuxième attaque et des suivantes de 80%.
+    - Abri Magie 3 : Si l'unité subit des attaques consécutives d'un ennemi utilisant la Magie réduit les dégâts de la deuxième attaque et des suivantes de 80%.
+    - Abri Jet 3 : Si l'unité subit des attaques consécutives d'un ennemi utilisant un Arc ou une Dague, réduit les dégâts de la deuxième attaque et des suivantes de 80%.
+    - Bootes Blindées : Si PV = 100% en début de tour, l'unité peut se déplacer d'une case supplémentaire.

@@ -1,0 +1,124 @@
+/**********************************************************************************/
+/************************** Modificateur de Statistiques **************************/
+/**********************************************************************************/
+
+#+Statistique : {Bouche-Trou -- Non Optimal}
+	- PV +5 : Les PV max de l'unité augmentent de 5.
+	- Atq +3 : L'Attaque de l'unité augmente de 3.
+	- Vit +3 : La Vitesse de l'unité augmente de 3.
+	- Déf +3 : La Défense de l'unité augmente de 3.
+	- Rés +3 : La Résistance de l'unité augmente de 3.
+
+#+Doubles Statistiques : {Bouche-Trou -- Non Optimal}
+	- PV/Atq 2 : Confère PV +4 et Atq +2 à l'unité.
+	- PV/Vit 2 : Confère PV +4 et Vit +2 à l'unité.
+	- PV/Déf 2 : Confère PV +4 et Déf +2 à l'unité.
+	- PV/Rés 2 : Confère PV +4 et Rés +2 à l'unité.
+	- Atq/Vit 2 : Confère Atq +2 et Vit +2 à l'unité.
+	- Atq/Déf 2 : Confère Atq +2 et Déf +2 à l'unité.
+	- Atq/Rés 2 : Confère Atq +2 et Rés +2 à l'unité.
+	- Vit/Déf 2 : Confère Vit +2 et Déf +2 à l'unité.
+	- Vit/Rés 2 : Confère Vit +2 et Rés +2 à l'unité.
+
+#Forteresse : {Tank -- Non Optimal}
+	- Forteresse 3 : Confère Déf +5 à l'unité et lui inflige Atq -3.
+	- Forteresse Rés 3 : Confère Rés +5 à l'unité et lui inflige Atq -3.
+
+#Contre-Coup : {Glass Canon -- Optimal} // Non compatible : Bâton
+	- Furie 3 : Confère Atq/Vit/Déf/Rés +3 à l'unité, mais elle subit 6 dégâts après le combat.
+	- Vivre et Mourir 3 : Confère Atq/Vit +5 à l'unité et lui inflige Déf/Rés -5.
+
+
+/**********************************************************************************/
+/********************************** Buff Passif **********************************/
+/**********************************************************************************/
+
+#Boost : {Sac à PV -- Non Optimal}
+	- Boost Ardent 3 : Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Atq +4 pendant le combat.
+	- Boost Vivifiant 3 : Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Vit +4 pendant le combat.
+	- Boost Fortifiant 3 : Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Déf +4 pendant le combat.
+	- Boost Apaisant 3 : Si l'unité a au moins 3 PV de plus que l'ennemi au début du combat, elle reçoit Rés +4 pendant le combat.
+
+#Effort : {Aggressif -- Optimal}
+	- Effort Atq/Vit 3 : Si PV = 100% au début du combat, confère Atq/Vit +5, mais si l'unité attaque, elle subit 1 dégât après le combat.
+
+#Coup : {Offensif -- Optimal} // Non compatible : Bâton
+	- Coup Fatal 3 : Confère Atq +6 à l'unité lorsqu'elle initie le combat.
+	- Coup Fatal 4 : Confère Atq +8 à l'unité lorsqu'elle initie le combat.
+	- Coup Foudroyant 3 : Confère Vit +6 à l'unité lorsqu'elle initie le combat.
+	- Coup Blindé 3 : Confère Déf +6 à l'unité lorsqu'elle initie le combat.
+	- Coup Gardien 3 : Confère Rés +6 à l'unité lorsqu'elle initie le combat.
+
+#Double Coup : {Offensif -- Optimal} // Non compatible : Bâton
+	- Hirondelle Rapide 2 : Confère Atq/Vit +4 à l'unité lorsqu'elle initie le combat.
+	- Coup Robuste 2 : Confère Atq/Déf +4 à l'unité lorsqu'elle initie le combat.
+	- Coup Résolu 2 : Confère Atq/Rés +4 à l'unité lorsqu'elle initie le combat.
+	- Coup Stable 2 : Confère Vit/Déf +4 à l'unité lorsqu'elle initie le combat.
+	- Coup Alerte 2 : Confère Vit/Rés +4 à l'unité lorsqu'elle initie le combat.
+	- Coup Rempart 2 : Confère Déf/Rés +4 à l'unité lorsqu'elle initie le combat.
+
+#Essor : {No Full Life -- Optimal}
+	- Essor Atq/Vit 3 : Si PV <= 80% au début du combat, confère Atq/Vit +7 pendant le combat.
+	- Essor Atq/Déf 3 : Si PV <= 80% au début du combat, confère Atq/Déf +7 pendant le combat.
+	- Essor Atq/Rés 3 : Si PV <= 80% au début du combat, confère Atq/Rés +7 pendant le combat.
+	- Essor Déf/Rés 3 : Si PV <= 80% au début du combat, confère Déf/Rés +7 pendant le combat.
+
+#Posture : {Tank -- Optimal} // Non compatible : Bâton
+	- Posture Féroce 3 : Confère Atq +6 pendant le combat si l'unité est attaquée.
+	- Posture Foudroyante 3 : Confère Vit +6 pendant le combat si l'unité est attaquée.
+	- Posture Stable 3 : Confère Déf +6 pendant le combat si l'unité est attaquée.
+	- Posture Gardien 3 : Confère Rés +6 pendant le combat si l'unité est attaquée.
+
+#Double Posture : {Tank -- Optimal} // Non compatible : Bâton
+	- Posture Hirondelle 2 : Confère Atq/Vit +4 pendant le combat si l'unité est attaquée.
+	- Posture Robuste 2 : Confère Atq/Déf +4 pendant le combat si l'unité est attaquée.
+	- Posture Résolue 2 : Confère Atq/Rés +4 pendant le combat si l'unité est attaquée.
+	- Posture Alerte 2 : Confère Vit/Rés +4 pendant le combat si l'unité est attaquée.
+	- Posture Rempart 2 : Confère Déf/Rés +4 pendant le combat si l'unité est attaquée.
+
+#Souffle : {Tank -- Optimal} // Non compatible : Arme à Distance / Cavalier / Volant
+	- Souffle Stable : Confère Déf +4 pendant le combat et Compteur -1 si l'unité est attaquée.
+	- Souffle Gardien : Confère Rés +4 pendant le combat et Compteur -1 si l'unité est attaquée.
+
+#Défense : {Tank -- Optimal}
+	- Déf Proche 3 : Si l'unité est attaqué par un ennemi utilisant une Épée, une Lance, une Hache ou une Dracopierre, elle reçoit Déf/Rés +6 pendant le combat.
+	- Déf à Distance 3 : Si l'unité est attaqué par un ennemi utilisant un Arc, des Dague, la Magie ou un Bâton, elle reçoit Déf/Rés +6 pendant le combat.
+
+#Lien : {Déplacement -- Optimal}
+	- Lien Atq/Vit 3 : Confère Atq/Vit +5 à l'unité pendant le combat si elle se trouve à côté d'un allié.
+	- Lien Atq/Déf 3 : Confère Atq/Déf +5 à l'unité pendant le combat si elle se trouve à côté d'un allié.
+	- Lien Atq/Rés 3 : Confère Atq/Rés +5 à l'unité pendant le combat si elle se trouve à côté d'un allié.
+	- Lien Vit/Déf 3 : Confère Vit/Déf +5 à l'unité pendant le combat si elle se trouve à côté d'un allié.
+	- Lien Vit/Rés 3 : Confère Vit/Rés +5 à l'unité pendant le combat si elle se trouve à côté d'un allié.
+
+
+/**********************************************************************************/
+/*********************************** Buff Actif ***********************************/
+/**********************************************************************************/
+
+#Éveil : {Midlife -- Non Optimal}
+	- Éveil Atq 3 : Si PV <= 50%, confère Atq +5 à l'unité en début de tour.
+	- Éveil Vit 3 : Si PV <= 50%, confère Vit +5 à l'unité en début de tour.
+	- Éveil Déf 3 : Si PV <= 50%, confère Déf +5 à l'unité en début de tour.
+	- Éveil Rés 3 : Si PV <= 50%, confère Rés +5 à l'unité en début de tour.
+
+
+/*********************************************************************************/
+/************************************* Autre *************************************/
+/*********************************************************************************/
+
+#Contres : {Spécifique -- Optimal}
+	- Contre Rapproché : L'unité riposte peu importe la distance à laquelle se trouve son assaillant.
+	- Contre Distant : L'unité riposte peu importe la distance à laquelle se trouve son assaillant.
+
+#Écu : {Spécifique -- Optimal}
+	- Écu de Svalinn : Neutralise l'effet "efficace contre les Cuirassés" conféré par certaines aptitudes.
+	- Écu de Grani : Neutralise l'effet "efficace contre les Cavaliers" conféré par certaines aptitudes.
+	- Écu d'Iote : Neutralise l'effet "efficace contre les Volants" conféré par certaines aptitudes.
+
+#Lame : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Lame Lourde 3 : Si Atq > Atq de l'ennemi de 1 point ou +, Compteur -1 par attaque.
+	- Lame Véloce 3 : Si Vit > Vit de l'ennemi de 1 point ou +, Compteur -1 par attaque.
+
+#Triangle des Armes : {Anti-Gris -- Optimal} // Non compatible : Arc, Dague, Bâton
+	-Triadepte 3 : Atq +20% si avantage tactique. Atq -20% si désavantage tactique.

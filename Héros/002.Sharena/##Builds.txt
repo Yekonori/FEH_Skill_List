@@ -1,0 +1,24 @@
+#Bénédiction : Eau
+
+#Armes Spéciales : 
+	_Fensalir (Débuff)					=> 125 V // 140 D //  2 N 	--- B. Skill = (Double) Sceau || Gel || Feinte
+																  	--- C. Skill = Réduite || Fumée
+																  	--- S. Skill = Sceau || Réduite || Fumée
+	_L. Coquillage (Offensif)			=> 231 V //  36 D //  0 N
+	_Lance Carotte (Offensif)			=> 215 V //  52 D //  0 N
+	_Harpon Marin (Aggressif)			=> 231 V //  36 D //  0 N
+	_Sapin d'Assaut (Tank)				=> 207 V //  60 D //  0 N
+	_Casablanca (Tank Dist.)			=>  98 V //  18 D //  1 N - {Distant + Contre Distant}
+	_Lance Berkut (Tank Mag.)			=>  79 V //  11 D //  1 N - {Magique + Contre Distant}
+	_1re Bouchée (Support)				=> 164 V //  95 D //  8 N 	--- C. Skill = Stimulant
+																	--- S. Skill = Stimulant
+
+#Lance Harmonie : 
+	_Atq <= 32 [+Kill]					=> 235 V //  32 D //  0 N
+
+#Lance Saphir : 
+	_Kill >= 85% - [xx.xx%]				=> - {Rouge}
+
+#Pique Meurtrier / Caballucide : 
+	_Kill >= 80% - [xx.xx%]				=> - {Cuirassé}
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

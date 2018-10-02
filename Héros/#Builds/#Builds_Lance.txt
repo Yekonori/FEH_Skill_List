@@ -1,0 +1,43 @@
+#Bénédiction : 
+
+#Lances Spéciales : 
+	_L. Coquillage (Offensif)			=>
+	_Lance Carotte (Offensif)			=>
+	_Harpon Marin (Aggressif)			=>
+	_Sapin d'Assaut (Tank)				=>
+	_Casablanca (Tank Dist.)			=> - {Distant + Contre Distant}
+	_Lance Berkut (Tank Mag.)			=> - {Magique + Contre Distant}
+	_1re Bouchée (Support)				=>
+
+#Lance Argent : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique}
+	_Rés >= 30 [-Kill]					=> - {Magique + Contre Distant}
+
+#Lance Harmonie : 
+	_Atq <= 32 [+Kill]					=>
+
+#Lance Héros : 
+	_Vit <= 27 [+Kill]					=>
+
+#Lance Enflamée : 
+	_Atq >= 35 [+Kill]					=>
+	_Vit >= 37 [+Kill]					=>
+
+#Lance Meurtrier : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique}
+	_Rés >= 30 [-Kill]					=> - {Magique + Contre Distant}
+
+#Lance Représailles : 
+	_Déf >= 30 [-Kill]					=> - {Physique}
+	_Rés >= 30 [-Kill]					=> - {Magique + Contre Distant}
+
+#Lance Saphir : 
+	_Kill >= 85% - [xx.xx%]				=> - {Rouge}
+
+#Pique Meurtrier / Caballucide : 
+	_Kill >= 80% - [xx.xx%]				=> - {Cuirassé}
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}

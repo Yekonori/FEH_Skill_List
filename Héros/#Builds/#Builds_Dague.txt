@@ -1,0 +1,35 @@
+#Bénédiction : 
+
+#Dagues Spéciales : 
+	_Carotte Létale (Offensif)			=>
+	_Étoile de Mer (Offensif)			=>
+	_Coquillage (Aggressif)				=>
+	_Kagami Mochi (Accélérateur)		=>
+	_Lance-Chat	(Anti-Mage)				=> - {Tome}
+	_Éventail Festif (Support)			=>
+
+#Dague Argent : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
+
+#Nettoyeur : 
+	_Tout le monde [+Kill]				=> 
+
+#Shuriken Acéré : 
+	_Tout le monde [+Kill]				=> 
+
+#Dague Poison : 
+	_Kill >= 80% - [xx.xx%]				=> - {Fantassin}
+
+#Dague Fumigène : 
+	_Tout le monde [+Kill]				=>
+
+#Dague Fourbe : 
+	_Tout le monde [-Kill]				=>
+
+#Maiougi / Uchiwa : 
+	_Kill >= 80% - [xx.xx%]				=> - {Cuirassé}
+	_Kill >= 80% - [xx.xx%]				=> - {Cavalier}
+	_Kill >= 80% - [xx.xx%]				=> - {Dragon}

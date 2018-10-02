@@ -1,0 +1,42 @@
+#Bénédiction : 
+
+#Arcs Spéciaux : 
+	_Arc Coco (Offensif)				=>
+	_Arc Poisson (Offensif)				=>
+	_Arc à Friandise (Aggressif)		=>
+	_Gratia (Tank Dist.)				=> - {Distant + Contre Distant}
+	_Arc de Monstre (Débuff)			=>
+	_Arc Clarisse (Débuff)				=>
+	_Hama Ya (Support)					=>
+	_Flèche Cupidon (Support)			=>
+
+#Arc Argent : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
+
+#Arc Héros : 
+	_Vit <= 27 [+Kill]					=>
+
+#Arc Enflamée : 
+	_Atq >= 35 [+Kill]					=>
+	_Vit >= 37 [+Kill]					=>
+
+#Arc Meurtrier : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
+
+#Arc Défenseur : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
+
+#Arc d'Assassin : 
+	_Atq >= 33 [+Kill]					=>
+	_Vit >= 35 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
+	_Rés >= 30 [-Kill]					=> - {Magique}
