@@ -18,6 +18,9 @@
 #Épée Protect. : 
 	_Déf >= 30 [-Kill]					=> 
 
+#Lame Barrière : 
+	_Rés >= 30 [-Kill]					=> 
+
 #Épée Enflamée : 
 	_Atq >= 35 [+Kill]					=>
 	_Vit >= 37 [+Kill]					=>

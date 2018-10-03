@@ -28,6 +28,9 @@
 	- Furie 3 : Confère Atq/Vit/Déf/Rés +3 à l'unité, mais elle subit 6 dégâts après le combat.
 	- Vivre et Mourir 3 : Confère Atq/Vit +5 à l'unité et lui inflige Déf/Rés -5.
 
+#Duel : {Arène -- Scoring}
+	- Duel Infant. (V) 3 : Confère PV +5. Si l'unité est de Rang 5 et de niveau 40, et que le total de ses caractéristiques est inférieur à 170, celui-ci est traité comme s'il était égal à 170 dans les modes comme l'Arène.
+	- Duel Aérien (R) 3 : Confère PV +5. Si l'unité est de Rang 5 et de niveau 40, et que le total de ses caractéristiques est inférieur à 170, celui-ci est traité comme s'il était égal à 170 dans les modes comme l'Arène.
 
 /**********************************************************************************/
 /********************************** Buff Passif **********************************/
@@ -73,16 +76,21 @@
 	- Posture Hirondelle 2 : Confère Atq/Vit +4 pendant le combat si l'unité est attaquée.
 	- Posture Robuste 2 : Confère Atq/Déf +4 pendant le combat si l'unité est attaquée.
 	- Posture Résolue 2 : Confère Atq/Rés +4 pendant le combat si l'unité est attaquée.
+	- Station Stable 2 : Confère Vit/Déf +4 pendant le combat si l'unité est attaquée.
 	- Posture Alerte 2 : Confère Vit/Rés +4 pendant le combat si l'unité est attaquée.
 	- Posture Rempart 2 : Confère Déf/Rés +4 pendant le combat si l'unité est attaquée.
 
 #Souffle : {Tank -- Optimal} // Non compatible : Arme à Distance / Cavalier / Volant
+	- Souffle Féroce : Confère Atq +4 pendant le combat et Compteur -1 si l'unité est attaquée.
 	- Souffle Stable : Confère Déf +4 pendant le combat et Compteur -1 si l'unité est attaquée.
 	- Souffle Gardien : Confère Rés +4 pendant le combat et Compteur -1 si l'unité est attaquée.
 
 #Défense : {Tank -- Optimal}
 	- Déf Proche 3 : Si l'unité est attaqué par un ennemi utilisant une Épée, une Lance, une Hache ou une Dracopierre, elle reçoit Déf/Rés +6 pendant le combat.
 	- Déf à Distance 3 : Si l'unité est attaqué par un ennemi utilisant un Arc, des Dague, la Magie ou un Bâton, elle reçoit Déf/Rés +6 pendant le combat.
+
+#Solo : {Déplacement -- Optimal}
+	- Solo Atq/Rés 3 : S'il n'y a pas d'alliés sur les cases adjacentes à l'unité, confère Atq/Rés +6 pendant le combat.
 
 #Lien : {Déplacement -- Optimal}
 	- Lien Atq/Vit 3 : Confère Atq/Vit +5 à l'unité pendant le combat si elle se trouve à côté d'un allié.

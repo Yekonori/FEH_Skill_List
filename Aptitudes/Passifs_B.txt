@@ -4,6 +4,7 @@
 
 #Lien : {Spécifique -- Optimal} // Non compatible : Bâton
 	- Lien Atq/Déf 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Atq/Déf +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
+	- Lien Vit/Rés 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Vit/Rés +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
 	- Lien Déf/Rés 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Déf/Rés +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
 
 #Dance : {Spécifique -- Optimal} // Non compatible : Bâton
@@ -11,9 +12,10 @@
 	- Danse du Vent 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Vit +4.
 	- Danse Terrestre 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Déf +5.
 	- Danse de l'Eau 1 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Rés +3.
-	- Danse Brasier 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq/Vit +4.
-	- Danse Magma 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq/Rés +4.
-	- Danse du Tornade 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Vit/Déf +4.
+	- Danse Brasier 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq/Vit +3.
+	- Danse Magma 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq +3 et Rés +4.
+	- Danse du Tornade 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Vit +3 et Déf +4.
+	- Danse du Tornade 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Vit +3 et Rés +4.
 	- Danse du Geyser 2 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Déf/Rés +4.
 
 
@@ -83,8 +85,8 @@
 /**********************************************************************************/
 
 #Balayage : {Spécifique -- Optimal} // Non compatible : Bâton
-	- Rafale 3 : Double frappe impossible en initiant le combat. Si Vit >= 1 + Vit d'un ennemi avec Épée, Lance, Hache, Arc ou Dague, celui-ci ne peut pas riposter.
-	- Déferlante 3 : Double frappe impossible en initiant le combat. Si Vit >= 1 + Vit d'un ennemi utilisant Magie, Bâton ou Dracopierre, celui-ci ne peut pas riposter.
+	- Rafale 3 : Double frappe impossible en initiant le combat. Si Vit >= 1 +Vit d'un ennemi avec Épée, Lance, Hache, Arc ou Dague, celui-ci ne peut pas riposter.
+	- Déferlante 3 : Double frappe impossible en initiant le combat. Si Vit >= 1 +Vit d'un ennemi utilisant Magie, Bâton ou Dracopierre, celui-ci ne peut pas riposter.
 
 
 /**********************************************************************************/
@@ -147,6 +149,7 @@
 #Spécial : {Spécifique -- Optimal} // Non compatible : Arme à Distance / Cavalier / Volant
 	- Courroux 3 : Si PV <= 75% et si l'Aptitude Spéciale est activée en attaquant, Compteur -1 au début du tour. Si l'Aptitude Spéciale se déclenche, ses dégâts sont augmentés de 10.
 	- Influx Écu 3 : Si l'Aptitude Spéciale est activée par les attaques ennemis, Compteur -2 au début du premier tour. Les dégâts subis par l'unité sont réduit de 5 lors de l'activation de l'Aptitude Spéciale.
+	- Spirale Spéciale 3 : Si l'Aptitude Spéciale se déclenche avant ou pendant le combat, Compteur -2 après le combat.
 
 #Dommage : {Spécifique -- Optimal} // Non compatible : Bâton
 	- Frappe Ciguë 3 : Après avoir initié le combat, l'unité inflige 10 dégâts à l'ennemi ciblé.

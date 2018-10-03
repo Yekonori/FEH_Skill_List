@@ -51,8 +51,10 @@
 
 #Vague : {Spécifique -- Optimal}
 	- Pair Vit 3 : Au début des tours Pairs, confère Vit +6 à l'unité et aux alliés adjacents pendant un tour.
+	- Pair Déf 3 : Au début des tours Pairs, confère Déf +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Pair Rés 3 : Au début des tours Pairs, confère Rés +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Impair Atq 3 : Au début des tours Impairs, confère Atq +6 à l'unité et aux alliés adjacents pendant un tour.
+	- Impair Vit 3 : Au début des tours Impairs, confère Vit +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Impair Déf 3 : Au début des tours Impairs, confère Déf +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Impair Rés 3 : Au début des tours Impairs, confère Rés +6 à l'unité et aux alliés adjacents pendant un tour.
 

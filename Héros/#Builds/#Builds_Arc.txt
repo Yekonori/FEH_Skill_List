@@ -16,6 +16,9 @@
 	_Déf >= 30 [-Kill]					=> - {Physique + Contre Rapproché}
 	_Rés >= 30 [-Kill]					=> - {Magique}
 
+#Arc Brillant : 
+	_Atq <= 32 [+Kill]					=>
+
 #Arc Héros : 
 	_Vit <= 27 [+Kill]					=>
 
