@@ -49,7 +49,7 @@
 	- Impulsion Déf 3 : En début de tour, confère Déf +4 aux alliés adjacents pendant un tour.
 	- Impulsion Rés 3 : En début de tour, confère Rés +4 aux alliés adjacents pendant un tour.
 
-#Vague : {Spécifique -- Optimal}
+#Pair/Impair : {Spécifique -- Optimal}
 	- Pair Vit 3 : Au début des tours Pairs, confère Vit +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Pair Déf 3 : Au début des tours Pairs, confère Déf +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Pair Rés 3 : Au début des tours Pairs, confère Rés +6 à l'unité et aux alliés adjacents pendant un tour.

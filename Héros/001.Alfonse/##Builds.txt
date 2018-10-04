@@ -1,26 +1,25 @@
 #Bénédiction : Terre
 
 #Armes Spéciales : 
-	_Fólkvangr (Not Full Life)			=> 179 V //  88 D //  0 N
-	_Kadomatsu (Support)				=> 155 V // 112 D //  0 N	--- C. Skill = Stimulant
-																	--- S. Skill = Stimulant
+	_Fólkvangr (Not Full Life)			=> 242 V //  54 D // 0 N
+	_Kadomatsu (Support)				=> 167 V // 129 D // 0 N
 
 #Épée Argent : 
-	_Atq >= 33 [+Kill]					=> 190 V //  76 D //  1 N
-	_Déf >= 30 [-Kill]					=> 154 V //  24 D //  0 N - {Physique}
+	_Atq >= 33 [+Kill]					=> 203 V //  89 D // 4 N
+	_Déf >= 30 [-Kill]					=> - {Physique}
 
 #Épée Héros : 
-	_Vit <= 27 [+Kill]					=> 206 V //  61 D //  0 N
+	_Vit <= 27 [+Kill]					=>
 
 #Épée Protect. : 
-	_Déf >= 30 [-Kill]					=> 161 V //  15 D //  0 N - {Physique}
+	_Déf >= 30 [-Kill]					=>
 
 #Épée Enflamée : 
-	_Atq >= 35 [+Kill]					=> 182 V //  84 D // 11 N
+	_Atq >= 35 [+Kill]					=>
 
 #Fer Meurtrier : 
-	_Atq >= 33 [+Kill]					=> 209 V //  58 D //  0 N
-	_Déf >= 30 [-Kill]					=> 151 V //  25 D //  0 N - {Physique}
+	_Atq >= 33 [+Kill]					=>
+	_Déf >= 30 [-Kill]					=> - {Physique}
 
 #Épée Rubis : 
 	_Kill >= 85% - [xx.xx%]				=> - {Vert}

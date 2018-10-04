@@ -61,7 +61,7 @@
 	- Anti-Avantage 3 : Les effets du Triangle des Armes liés aux Aptitudes de l'unité sont annulés. Annule aussi les effets du Triangle des Armes pour l'ennemi en cas de désavantage tactique.
 
 #PV : {Spécifique -- Optimal}
-	- Casse-Cou 3 : Si PV >= 50%, l'unité effectue automatiquement une double frappe lorsqu'elle initie le combat si l'ennemi est en mesure de riposté.
+	- Casse-Cou 3 : Si PV <= 50%, l'unité effectue automatiquement une double frappe lorsqu'elle initie le combat si l'ennemi est en mesure de riposté.
 	- Double Riposte 3 : Si PV >= 70%, l'unité effectue automatiquement une double frappe lorsqu'elle est attaquée.
 
 #Cuirassé : {Spécifique -- Optimal} // Non compatible : Fantassin / Cavalier / Volant
