@@ -7,6 +7,7 @@
 	_Brise-Pastèque (Aggresif)			=>
 	_Sac à Cadeaux (Tank)				=>
 	_Cloche (Tank)						=>
+	_Hache-Loween (Tank)				=>
 	_Hache Légion (Débuff)				=>
 	_Pelle à Tarte (Support)			=>
 	_Bouée Lilith (Support)				=>

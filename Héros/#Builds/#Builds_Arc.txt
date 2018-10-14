@@ -4,6 +4,7 @@
 	_Arc Coco (Offensif)				=>
 	_Arc Poisson (Offensif)				=>
 	_Arc à Friandise (Aggressif)		=>
+	_Arc Démon (Tank)					=>
 	_Gratia (Tank Dist.)				=> - {Distant + Contre Distant}
 	_Arc de Monstre (Débuff)			=>
 	_Arc Clarisse (Débuff)				=>

@@ -6,6 +6,7 @@
 	_Coquillage (Aggressif)				=>
 	_Kagami Mochi (Accélérateur)		=>
 	_Lance-Chat	(Anti-Mage)				=> - {Tome}
+	_Jus de Fruit (Tank)				=>
 	_Éventail Festif (Support)			=>
 
 #Dague Argent : 

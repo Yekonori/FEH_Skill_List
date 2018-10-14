@@ -2,10 +2,11 @@
 /*********************************** Buff Actif ***********************************/
 /**********************************************************************************/
 
-#Lien : {Spécifique -- Optimal} // Non compatible : Bâton
-	- Lien Atq/Déf 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Atq/Déf +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
-	- Lien Vit/Rés 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Vit/Rés +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
-	- Lien Déf/Rés 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Déf/Rés +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
+#Union : {Spécifique -- Optimal} // Non compatible : Bâton
+	- Union Atq/Vit 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Atq/Vit +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
+	- Union Atq/Déf 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Atq/Déf +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
+	- Union Vit/Rés 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Vit/Rés +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
+	- Union Déf/Rés 3 : Si une Aptitude de Soutien de déplacement est utilisée par l'unité ou sur l'unité, confère Déf/Rés +6 à la cible et à l'unité ayant utilisé l'Aptitude pendant un tour.
 
 #Dance : {Spécifique -- Optimal} // Non compatible : Bâton
 	- Danse du Feu 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq +4.

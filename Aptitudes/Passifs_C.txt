@@ -50,6 +50,7 @@
 	- Impulsion Rés 3 : En début de tour, confère Rés +4 aux alliés adjacents pendant un tour.
 
 #Pair/Impair : {Spécifique -- Optimal}
+	- Pair Atq 3 : Au début des tours Pairs, confère Atq +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Pair Vit 3 : Au début des tours Pairs, confère Vit +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Pair Déf 3 : Au début des tours Pairs, confère Déf +6 à l'unité et aux alliés adjacents pendant un tour.
 	- Pair Rés 3 : Au début des tours Pairs, confère Rés +6 à l'unité et aux alliés adjacents pendant un tour.
