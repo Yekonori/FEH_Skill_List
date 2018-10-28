@@ -23,6 +23,7 @@
 #Forteresse : {Tank -- Non Optimal}
 	- Forteresse 3 : Confère Déf +5 à l'unité et lui inflige Atq -3.
 	- Forteresse Rés 3 : Confère Rés +5 à l'unité et lui inflige Atq -3.
+	- Fort. Déf/Rés 3 : Confère Déf/Rés +6 et inflige Atq - 2.
 
 #Contre-Coup : {Glass Canon -- Optimal} // Non compatible : Bâton
 	- Furie 3 : Confère Atq/Vit/Déf/Rés +3 à l'unité, mais elle subit 6 dégâts après le combat.
@@ -30,6 +31,7 @@
 
 #Duel : {Arène -- Scoring}
 	- Duel Infant. (V) 3 : Confère PV +5. Si l'unité est de Rang 5 et de niveau 40, et que le total de ses caractéristiques est inférieur à 170, celui-ci est traité comme s'il était égal à 170 dans les modes comme l'Arène.
+	- Duel Infant. (G) 3 : Confère PV +5. Si l'unité est de Rang 5 et de niveau 40, et que le total de ses caractéristiques est inférieur à 170, celui-ci est traité comme s'il était égal à 170 dans les modes comme l'Arène.
 	- Duel Aérien (R) 3 : Confère PV +5. Si l'unité est de Rang 5 et de niveau 40, et que le total de ses caractéristiques est inférieur à 170, celui-ci est traité comme s'il était égal à 170 dans les modes comme l'Arène.
 
 /**********************************************************************************/
