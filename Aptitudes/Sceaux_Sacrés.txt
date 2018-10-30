@@ -12,6 +12,7 @@
 #+Doubles Statistiques : {Tout-Genre}
 	- PV/Rés 2 : Confère PV +4 et Rés +2 à l'unité.
 	- Atq/Déf 2 : Confère Atq +2 et Déf +2 à l'unité.
+	- Vit/Déf 2 : Confère Vit +2 et Déf +2 à l'unité.
 
 #Forteresse : {Tank}
 	- Forteresse 3 : Confère Déf +5 à l'unité et lui inflige Atq -3.
@@ -21,6 +22,12 @@
 /**********************************************************************************/
 /********************************** Buff Passif **********************************/
 /**********************************************************************************/
+
+#Essor : {No Full Life}
+	- Essor Atq/Rés 3 : Si PV <= 80% au début du combat, confère Atq/Rés +7 pendant le combat.
+
+#Posture : {Tank}
+	- Posture Foudroyante 3 : Confère Vit +6 pendant le combat si l'unité est attaquée.
 
 #Défense : {Tank}
 	- Déf Proche 3 : Si l'unité est attaqué par un ennemi utilisant une Épée, une Lance, une Hache ou une Dracopierre, elle reçoit Déf/Rés +6 pendant le combat.
@@ -34,6 +41,7 @@
 
 #Stimulant : {Soutien}
 	- Stimulant Atq 2 : Confère Atq +3 aux alliés situés à 2 cases ou moins pendant le combat.
+	- Stimulant Vit 2 : Confère Vit +3 aux alliés situés à 2 cases ou moins pendant le combat.
 	- Stimulant Déf 2 : Confère Déf +3 aux alliés situés à 2 cases ou moins pendant le combat.
 
 
@@ -41,7 +49,8 @@
 /*********************************** Buff Actif ***********************************/
 /**********************************************************************************/
 
-#Dance : {Danseur} // Non compatible : Bâton
+#Dance : {Danseur}
+	- Danse du Feu 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Atq +4.
 	- Danse Terrestre 3 : Si l'Aptitude "Chant" ou "Danse" est utilisée, la cible reçoit également Déf +5.
 
 #Impulsion : {Soutien}
@@ -73,6 +82,7 @@
 #Réduite : {Débuffeur}
 	- Atq Réduite 3 : En début de tour, inflige Atq -5 aux ennemis situés à 2 cases ou moins pendant un tour.
 	- Vit Réduite 3 : En début de tour, inflige Vit -5 aux ennemis situés à 2 cases ou moins pendant un tour.
+	- Déf Réduite 3 : En début de tour, inflige Déf -5 aux ennemis situés à 2 cases ou moins pendant un tour.
 
 #Fumée : {Débuffeur}
 	- Fumée Atq 3 : Après le combat, inflige Atq -7 aux ennemis situés à 2 cases ou moins de la cible pour le restant du tour.
